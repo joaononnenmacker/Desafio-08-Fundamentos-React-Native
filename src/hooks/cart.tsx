@@ -40,7 +40,7 @@ const CartProvider: React.FC = ({ children }) => {
         setProducts([...productList]);
       }
 
-      await AsyncStorage.removeItem('@GoMarketplace:cart');
+      // await AsyncStorage.removeItem('@GoMarketplace:cart');
     }
 
     loadProducts();
